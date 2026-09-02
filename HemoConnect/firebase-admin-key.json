@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hemoconnect-b85ca",
+  "private_key_id": "f4fdba36b198e2749122e1b886e7f922b1ce5a08",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGa5z9yapk3ehY\n7k7FjkuZlRp3ybWVd2xJ4H3cU/nhkibCxea1VsmfpOb9XSGIcW6Ps61HCyV+7lux\nffpxHMFFfaGeZHn/KeK0fs0dgknU8ZQOtgtDvsXePlpCTHB0kI6Zz1IIHqF9ufv2\nNacxU+A0DK0Fud+s3iLkvTfF3MaYF2rdm33+iqyf36EFvgy+SRTxD/7luR8oMsKc\nyYIwFqb9lr9SodYXO2dfwU4qJcZYPyhVk75ob/mRMxwbrkuaw8xQG8IbbGGNi7P7\nz4gEqekj6CD/SVyu0/nsBUaDsKz6YCvc7WVe6MhU/T0eE/LUDioUMoRp6wzrhdl2\n52DNJNjFAgMBAAECggEAUjMWsJSxAGRl8yGWhIU0kIWSl3l6vlbhB6H2wiYP6QDx\nCdOOhiVUFczs3J2OXMYRNXsMF9hoSjNYzSkRbXaqIq2vHL0nRSwG/RtiwgzNpWgH\nHCkSdZg8xJs0LS8Zj1CrotCefTqjUECSPydvAiJrSWTO8QZVwXmtHvG8fz29EBg4\niAyuvAC/vYM2g0+7Q5InJq/WfXPxzchD9j+GXhEaQy46m2zVG+ccS6OuP/pjqtxm\n3YhEoubk2XUlPiSkqLom09HvXHcT+xkcupV0JzwR/fmGZCvh30LWjqs3UX556m1v\n7QQKGNRTAB4gnTUm/er5zFrU3UFPZurQrI99mZ8CaQKBgQDrEeee1nTzX97+TyT+\ntKiYBVtfJUn7tXsdlz92ochQdRTQjvDUAJ51P7c8873Xsijr2CPf0UAiil+qlvsF\nJNdam6beztmQw6fl+/Ub8qRlnjGBINaGhs8H3ROLLC79q9t7mxMOHGUKVMTXk5Da\nLwMH5iThfbww1udpJ5sZIk2FwwKBgQDYFlT4ScBpXT4YHpRkNRAVfpUtI2XZL+bx\ngXFCeYxSYbr/5BOEsXl4vyo9iFHowNO+sAXY3ZHxT8nRs61YoIRBv7BbAdWWlzBQ\nY0pu0TQtHRe4zWXv5+UO3Ad+iUtNpoRKBc8IyF25xb/PeUv4zU5Yx9rSKVt9p8lE\n/5Uz/N5W1wKBgG89ANOMfrlww9CqWUJi8WlHF68VsUX44nLlUPXtpyJT1W7ARby9\nMj8f0LF6UnsQ5wZ8OLXAis4Nlynd2pnbjkFlaPkE/7XesMRHj/0SvLMNwjVt+bad\ncrkw5/+y/+Ww/uMmRkUmMLZL2P5+6UwmdRO21/sRCg4+lDGRuXaSYgcLAoGAPG1q\nT5CYTR61GZublbY9DDW808WdWrIJnCm9mYBSHEuWNq76QlY7COg0kMaJWVRrIl0p\nFW9Iu7m7T3g2lp00vwoy8BBAQX+AFErf6sN4GtGS66wMwJ0RsikXs2wDcfCJ+AVN\n0z/s7eF99TAPbcFEEpG5AKJuImKEZ1YtzD7/kjsCgYEAvQ3/7g87TeUp20QS5BKc\n/GxAlqB2N+gB5BmiJgt+PvWi2jMspO6tKZCSX0ic2HEj8g7/LhSzc6VDiMo7YV/6\nHIIl/pnuHmVK8VQvpNYMPafKiosKelJayQ2A2fX0qxgPrr7MvZROQ9apH/iMd7W6\nBx0c9dIxhURwORVXt7glRbs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@hemoconnect-b85ca.iam.gserviceaccount.com",
+  "client_id": "110163152897706993133",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40hemoconnect-b85ca.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

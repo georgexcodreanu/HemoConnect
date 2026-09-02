@@ -1,0 +1,421 @@
+[
+  {
+    "ContainingType": "HemoConnect.Controllers.AdminController",
+    "Method": "GetCenters",
+    "RelativePath": "api/Admin/centers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.AdminController",
+    "Method": "AddCenter",
+    "RelativePath": "api/Admin/centers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HemoConnect.Controllers.AddLocationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.AdminController",
+    "Method": "GetHospitals",
+    "RelativePath": "api/Admin/hospitals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.AdminController",
+    "Method": "AddHospital",
+    "RelativePath": "api/Admin/hospitals",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HemoConnect.Controllers.AddLocationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.AdminController",
+    "Method": "TriggerPredictiveAnalysis",
+    "RelativePath": "api/Admin/trigger-predictive",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.AllocationController",
+    "Method": "GetPrioritizedRequests",
+    "RelativePath": "api/Allocation/prioritized-requests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.AllocationController",
+    "Method": "ProcessNextAllocation",
+    "RelativePath": "api/Allocation/process-next",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.AuthController",
+    "Method": "CreateMedicalStaff",
+    "RelativePath": "api/Auth/create-staff",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HemoConnect.Controllers.CreateStaffDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.AuthController",
+    "Method": "GetMe",
+    "RelativePath": "api/Auth/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.AuthController",
+    "Method": "SyncDonorProfile",
+    "RelativePath": "api/Auth/sync-profile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HemoConnect.Controllers.SyncProfileDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.BloodBagController",
+    "Method": "GetCenterInventory",
+    "RelativePath": "api/BloodBag/center",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.BloodBagController",
+    "Method": "AddBloodBag",
+    "RelativePath": "api/BloodBag/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HemoConnect.Controllers.CreateBloodBagDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.BloodRequestController",
+    "Method": "GetAllRequests",
+    "RelativePath": "api/bloodrequests/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.BloodRequestController",
+    "Method": "GetCenterAllocationTasks",
+    "RelativePath": "api/bloodrequests/center-tasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.BloodRequestController",
+    "Method": "ConfirmShipment",
+    "RelativePath": "api/bloodrequests/confirm-shipment/{requestId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.BloodRequestController",
+    "Method": "CreateRequest",
+    "RelativePath": "api/bloodrequests/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HemoConnect.Controllers.CreateBloodRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.BloodRequestController",
+    "Method": "GetHospitalRequests",
+    "RelativePath": "api/bloodrequests/hospital",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.BloodRequestController",
+    "Method": "TriggerAllocation",
+    "RelativePath": "api/bloodrequests/trigger-allocation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.DonorController",
+    "Method": "CreateAppointment",
+    "RelativePath": "api/Donor/appointment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HemoConnect.Controllers.CreateAppointmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.DonorController",
+    "Method": "UpdateAppointment",
+    "RelativePath": "api/Donor/appointment/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HemoConnect.Controllers.UpdateAppointmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.DonorController",
+    "Method": "GetBookedSlots",
+    "RelativePath": "api/Donor/booked-slots",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "centerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.DonorController",
+    "Method": "CancelAppointment",
+    "RelativePath": "api/Donor/cancel-appointment/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.DonorController",
+    "Method": "GetCenterAppointments",
+    "RelativePath": "api/Donor/center-appointments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.DonorController",
+    "Method": "GetCenterHistory",
+    "RelativePath": "api/Donor/center-history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.DonorController",
+    "Method": "GetCenters",
+    "RelativePath": "api/Donor/centers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.DonorController",
+    "Method": "CompleteAppointment",
+    "RelativePath": "api/Donor/complete-appointment/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HemoConnect.Controllers.CompleteAppointmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.DonorController",
+    "Method": "GetDashboard",
+    "RelativePath": "api/Donor/dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.DonorController",
+    "Method": "NoShowAppointment",
+    "RelativePath": "api/Donor/noshow-appointment/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.DonorController",
+    "Method": "SetGender",
+    "RelativePath": "api/Donor/set-gender",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HemoConnect.Controllers.SetGenderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.TestController",
+    "Method": "CleanupDb",
+    "RelativePath": "api/Test/cleanup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.TestController",
+    "Method": "FixLocations",
+    "RelativePath": "api/Test/fix-locations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HemoConnect.Controllers.TestController",
+    "Method": "GetHospitals",
+    "RelativePath": "api/Test/hospitals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

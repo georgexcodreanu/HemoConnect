@@ -1,0 +1,11 @@
+C:\Users\George\Desktop\Proiect Licenta ADEV\HemoConnect\HemoConnect.Domain\bin\Debug\net8.0\HemoConnect.Domain.deps.json
+C:\Users\George\Desktop\Proiect Licenta ADEV\HemoConnect\HemoConnect.Domain\bin\Debug\net8.0\HemoConnect.Domain.dll
+C:\Users\George\Desktop\Proiect Licenta ADEV\HemoConnect\HemoConnect.Domain\bin\Debug\net8.0\HemoConnect.Domain.pdb
+C:\Users\George\Desktop\Proiect Licenta ADEV\HemoConnect\HemoConnect.Domain\obj\Debug\net8.0\HemoConnect.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\George\Desktop\Proiect Licenta ADEV\HemoConnect\HemoConnect.Domain\obj\Debug\net8.0\HemoConnect.Domain.AssemblyInfoInputs.cache
+C:\Users\George\Desktop\Proiect Licenta ADEV\HemoConnect\HemoConnect.Domain\obj\Debug\net8.0\HemoConnect.Domain.AssemblyInfo.cs
+C:\Users\George\Desktop\Proiect Licenta ADEV\HemoConnect\HemoConnect.Domain\obj\Debug\net8.0\HemoConnect.Domain.csproj.CoreCompileInputs.cache
+C:\Users\George\Desktop\Proiect Licenta ADEV\HemoConnect\HemoConnect.Domain\obj\Debug\net8.0\HemoConnect.Domain.dll
+C:\Users\George\Desktop\Proiect Licenta ADEV\HemoConnect\HemoConnect.Domain\obj\Debug\net8.0\refint\HemoConnect.Domain.dll
+C:\Users\George\Desktop\Proiect Licenta ADEV\HemoConnect\HemoConnect.Domain\obj\Debug\net8.0\HemoConnect.Domain.pdb
+C:\Users\George\Desktop\Proiect Licenta ADEV\HemoConnect\HemoConnect.Domain\obj\Debug\net8.0\ref\HemoConnect.Domain.dll

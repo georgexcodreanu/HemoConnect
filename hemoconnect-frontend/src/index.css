@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Dark Medical Theme */
+  --bg-color: #0b1120;        /* background */
+  --surface-color: #1e293b;   /* cards */
+  --border-color: #334155;    /* border */
+  
+  --text-primary: #f8fafc;    
+  --text-secondary: #94a3b8;  
+  
+  --primary-accent: #3b82f6;  
+  --primary-hover: #2563eb;  
+  
+  /* Status Colors */
+  --color-critical: #ef4444;  
+  --color-urgent: #f59e0b;   
+  --color-routine: #10b981;  
+  
+  /* Modern soft shadows */
+  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.4);
+  --card-hover-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.5);
+  
+  --card-radius: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Ambient Glow Background Effect */
+.ambient-glow {
+  position: fixed;
+  top: -10vw;
+  right: -10vw;
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.08) 0%, rgba(11, 17, 32, 0) 70%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* App Shell Layout */
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.topbar {
+  height: 4rem;
+  background: rgba(30, 41, 59, 0.8);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.shell-body {
+  display: flex;
+  flex: 1;
+}
+
+/* Slim Sidebar */
+.slim-sidebar {
+  width: 250px;
+  background: transparent;
+  border-right: 1px solid var(--border-color);
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: sticky;
+  top: 4rem;
+  height: calc(100vh - 4rem);
+}
+
+.sidebar-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.sidebar-link:hover, .sidebar-link.active {
+  background: rgba(59, 130, 246, 0.1);
+  color: var(--primary-accent);
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Bento Grid System */
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.bento-col-span-2 {
+  grid-column: span 2;
+}
+
+@media (max-width: 768px) {
+  .bento-col-span-2 {
+    grid-column: span 1;
+  }
+  .shell-body {
+    flex-direction: column;
+  }
+  .slim-sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    padding: 1rem;
+  }
+  .main-content {
+    padding: 1rem;
+  }
+}
+
+/* Base Card Panel (Solid Premium Dark) */
+.glass-panel, .bento-card {
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--card-shadow);
+  border-radius: var(--card-radius);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  padding: 1.5rem;
+}
+
+.glass-panel:hover, .bento-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--card-hover-shadow);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+/* Modern solid text */
+.text-gradient {
+  color: var(--text-primary);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Global inputs styling for dark mode */
+input, select, textarea {
+  background: #0f172a !important; /* Darker input background */
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-primary) !important;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+option {
+  background-color: #0f172a !important;
+  color: var(--text-primary) !important;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  background: #1e293b !important;
+  border-color: var(--primary-accent) !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25) !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #64748b;
+}

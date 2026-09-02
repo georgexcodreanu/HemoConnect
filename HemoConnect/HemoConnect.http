@@ -1,0 +1,6 @@
+@HemoConnect_HostAddress = http://localhost:5106
+
+GET {{HemoConnect_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
